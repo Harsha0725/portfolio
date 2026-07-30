@@ -160,7 +160,7 @@ export const projectsData = [
       "Integrated score tracking, shortest-path visualization, and browser-based data storage using LocalStorage."
     ],
     techStack: ["HTML", "CSS", "JavaScript", "A* Algorithm", "LocalStorage"],
-    githubUrl: "https://github.com/Harsha0725/AI-Maze-Escape",
+    githubUrl: "https://github.com/Harsha0725/AI-mini-project",
     demoUrl: "#"
   },
   {
@@ -176,7 +176,7 @@ export const projectsData = [
       "Simulated real-world file organization through path-based directory navigation and dynamic node management."
     ],
     techStack: ["C++", "N-ary Tree", "DFS", "Recursion"],
-    githubUrl: "https://github.com/Harsha0725/File-System-Simulator",
+    githubUrl: "https://github.com/Harsha0725/DSA",
     demoUrl: "#"
   },
   {
