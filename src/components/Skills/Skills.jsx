@@ -14,8 +14,7 @@ import {
   FaServer, 
   FaCloud,
   FaLightbulb,
-  FaStar,
-  FaCheck
+  FaStar
 } from "react-icons/fa";
 import { skillsData } from "../../data/portfolio";
 
@@ -211,7 +210,7 @@ function Skills() {
                       </div>
 
                       {/* Icon & Title */}
-                      <div className="flex items-center gap-3.5 mb-3">
+                      <div className="flex items-center gap-3.5">
                         <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-sky-500/20 to-blue-600/20 border border-sky-400/30 flex items-center justify-center text-2xl shrink-0 group-hover:scale-110 transition shadow-md">
                           {getSkillIcon(skill.name)}
                         </div>
@@ -221,25 +220,6 @@ function Skills() {
                           </h3>
                           <p className="text-[11px] text-gray-400 font-medium">Applied Knowledge</p>
                         </div>
-                      </div>
-                    </div>
-
-                    {/* Progress Bar */}
-                    <div className="mt-4 pt-3 border-t border-sky-500/10 space-y-1.5">
-                      <div className="flex justify-between items-center text-[11px]">
-                        <span className="text-gray-400 font-medium flex items-center gap-1">
-                          <FaCheck className="text-sky-400 text-[10px]" /> Proficiency
-                        </span>
-                        <span className="text-sky-400 font-mono font-bold">{skill.level}%</span>
-                      </div>
-                      <div className="w-full h-1.5 rounded-full bg-[#070c1c] overflow-hidden p-0.5 border border-sky-500/15">
-                        <motion.div
-                          initial={{ width: 0 }}
-                          whileInView={{ width: `${skill.level}%` }}
-                          viewport={{ once: true }}
-                          transition={{ duration: 0.8, ease: "easeOut" }}
-                          className="h-full rounded-full bg-gradient-to-r from-sky-400 to-blue-600 shadow-sm shadow-sky-400/40"
-                        />
                       </div>
                     </div>
                   </motion.div>
