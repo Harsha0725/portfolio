@@ -53,8 +53,7 @@ export const skillsData = [
     skills: [
       { name: "MySQL", level: 85, badge: "Relational DB" },
       { name: "MongoDB", level: 82, badge: "NoSQL DB" },
-      { name: "Power BI", level: 85, badge: "Data & BI Tool" },
-      { name: "PostgreSQL", level: 80, badge: "Relational DB" }
+      { name: "Power BI", level: 85, badge: "Data & BI Tool" }
     ]
   },
   {
