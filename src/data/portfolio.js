@@ -63,9 +63,7 @@ export const skillsData = [
     skills: [
       { name: "Git", level: 88, badge: "Version Control" },
       { name: "GitHub", level: 90, badge: "Code Repository" },
-      { name: "VS Code", level: 95, badge: "Development Environment" },
-      { name: "Tesseract OCR", level: 80, badge: "Text Extraction" },
-      { name: "D-Wave Ocean SDK", level: 75, badge: "QUBO Optimization" }
+      { name: "VS Code", level: 95, badge: "Development Environment" }
     ]
   },
   {
